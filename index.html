@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <title>Find the precious!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html" > FindThePrecious.com </a></li>
+                <li><a href="#fellows">Fellows </a></li>
+                <li><a href="#contact"> Contact us </a> </li>
+            </ul>
+        </nav>
+        <section>
+            <div class="carousel"></div>
+        </section>
+        <section id="fellows">
+            <h2>Fellows wanted dead (or alive if you want to eat them later)</h2>
+        </section>
+        <section class="fellowsArticles">
+            <article></article>
+            <article></article>
+            <article></article>      
+        </section>
+        <form id="contact" action="/contact.php" method="post" >
+            <h2 class="contactTitle">Contact us</h2>
+            <label for="email"></label>
+            <input type="text" id="email" name="userEmail" placeholder="@">
+
+            <label for="address"></label>
+            <input type="text" id="address" name="userAddress" placeholder="&#8962;">
+
+            <label for="subject"></label>
+            <select id="subject" name="userSubject">
+                <option value="seenOne">I have seen one of them</option>
+                <option value="other">other reason</option>
+            </select>    
+            
+            <label for="message"></label>
+            <textarea id="message" name="userMessage" placeholder="Your message"></textarea>
+            
+            <input class="button" type="submit" value="Send !">
+
+        </form>
+        <footer>
+            <div>
+                <a href="">About us</a>
+                <a href="#fellows">Fellows</a>
+                <a href="">Join our army</a>
+            </div>
+            <div>
+                <a href="">FAQ</a>
+                <a href="">Reward conditions</a>
+                <a href="">Legal mentions</a>
+            </div>
+            <div>
+                <a href="">Sauron4Ever.com</a>
+                <a href="">Follow him</a>
+            </div>
+            
+        </footer>
+    </body>
+</html>
