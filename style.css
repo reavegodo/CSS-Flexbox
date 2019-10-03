@@ -1,6 +1,6 @@
 
 nav {
-    background-color: black;
+    background-color: grey;
     font-size: 24px;
     margin : 0px;
     min-height: 40px;
@@ -67,7 +67,7 @@ article {
 
 
 form{
-    border-top: solid 2px black;
+    border-top: solid 2px grey;
     padding-top: 20px;
     width: 85%;
     margin: auto;
@@ -79,7 +79,7 @@ form{
 
 input, select
 {
-    border : solid 2px black;
+    border : solid 2px grey;
     width: 100%;
     margin : 10px auto;
     height: 20px;
@@ -100,7 +100,7 @@ form h2{
 }
 
 textarea{
-    border : solid 2px black;
+    border : solid 2px grey;
     width: 100%;
     margin : 10px auto;
     height: 100px;
@@ -116,7 +116,7 @@ textarea{
 
 
 footer{
-    background-color: black;
+    background-color: darkgrey;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -155,7 +155,7 @@ nav a{
 nav a:hover{
 
     background-color: white;
-    color: black;
+    color: grey;
 
 
 }
